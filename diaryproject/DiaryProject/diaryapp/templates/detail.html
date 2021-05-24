@@ -1,5 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
 <h1>일기</h1>
 <br>
 <h1>제목: {{diary.title}}</h1>
 <p>작성 날짜 : {{diary.pub_date}}</p>
 <p>일기 : {{diary.body}}</p>
+
+{% endblock %}
